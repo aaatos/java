@@ -4,6 +4,7 @@
  */
 package swing;
 
+import java.awt.BorderLayout;
 import java.awt.Dimension;
 import javax.swing.*;
 
@@ -13,12 +14,10 @@ import javax.swing.*;
  */
 public class HelloWorldSwing1 {
 
-    /**
-     * Create the GUI and show it. For thread safety, this method should be
-     * invoked from the event-dispatching thread.
-     */
-    private static void createAndShowGUI() {
-        //Create and set up the window.
+    
+   
+
+    public static void main(String[] args) {
         JFrame frame = new JFrame("HelloWorldSwing");
         frame.setPreferredSize(new Dimension(400, 400));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -28,20 +27,37 @@ public class HelloWorldSwing1 {
         //frame.getContentPane().add(label);
         //frame.add(label);
         
+        
+        //add a button
+        //JButton button1=new JButton("Βόρεια");
+        //frame.getContentPane().add(button);
+        
+        //add a second button
+        //JButton button2=new JButton("Κεντρικά!!");
+        //frame.getContentPane().add(button);
+        
+        //add a second button
+        //JButton button3=new JButton("Νότια!!");
+        //frame.getContentPane().add(button);
+        
+        //add a second button
+        //JButton button4=new JButton("Ανατολικά!!");
+        //frame.getContentPane().add(button);
+        
+        //add a second button
+        //JButton button5=new JButton("Δυτικά!!");
+        //frame.getContentPane().add(button);
+        
+        //using layoutmanager
+        //frame.getContentPane().add(button1, BorderLayout.NORTH);
+        //frame.getContentPane().add(button2, BorderLayout.CENTER);
+       // frame.getContentPane().add(button3, BorderLayout.SOUTH);
+        //frame.getContentPane().add(button4, BorderLayout.EAST);
+        //frame.getContentPane().add(button5, BorderLayout.WEST);
+        
         //Display the window.
         //frame.add(new Line(1,3,300,300));
         frame.pack();
         frame.setVisible(true);
-    }
-
-    public static void main(String[] args) {
-        //Schedule a job for the event-dispatching thread:
-        //creating and showing this application's GUI.
-//        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-//            public void run() {
-//                createAndShowGUI();
-//            }
-//        });
-        createAndShowGUI();
     }
 }

@@ -26,6 +26,7 @@ public class Line extends javax.swing.JPanel {
 
     public void paintComponent(Graphics g) {
         g.drawLine(x1, y1, x2, y2);
+        
 
     }
 
