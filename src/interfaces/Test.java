@@ -26,9 +26,11 @@ public class Test {
             interface1.b(1);
         }
         Interface1 inf1=test.class1;
+        System.out.println("for class1");
         inf1.a();
         
         inf1=test.class2;
+        System.out.println("for class2");
         inf1.a();
     }
          
