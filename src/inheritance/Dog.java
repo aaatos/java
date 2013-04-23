@@ -8,13 +8,29 @@ package inheritance;
  *
  * @author angelos
  */
-public  class Dog extends Mammal {
-    void speak(){
+public  class Dog extends Mammal implements NewInterface{
+     void speak(){
         System.out.println("Ο σκύλος μίλησε");
         
     }
     Dog(String a, double b, double c){
         super(a,b,c);
+        
+    }
+
+   
+    public void a() {
+        
+    }
+
+    
+    public void b() {
+        
+    }
+
+    
+    public void c() {
+        
     }
     
 }

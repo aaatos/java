@@ -16,7 +16,7 @@ public class Test {
         point1.x=45.5;
         point1.y=30.9;
         point1.print();
-        //point1.PI=3.15;
+        
             
         Point point2=new Point(1, 15,"maria");
         System.out.println("Αριθμός points "+point1.counter);

@@ -8,14 +8,13 @@ package inheritance;
  *
  * @author angelos
  */
-public class Animal {
+public abstract class Animal {
     String name;
     Double height;
     Double weigth;
-   void speak(){
-        System.out.println("το animal μίλησε!!");
-    }
-   Animal(String a, double b, double c){
+   abstract void speak();
+    
+   Animal(String a,double b, double c){
        name=a;
        height=b;
        weigth=c;
